@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salon at Home</title>
+	<link rel="stylesheet" type="text/css" href="css/salonathome.css">
+</head>
+<body>
+	<div class="first" style="background-color:red; color:white; padding:20px;">
+		<img src="logo.png" alt="logo" style="width: 15%; outline: black solid 2px;">
+		<header style="float: right; width: 82%"> <b>Salon At Home</b></header>
+	</div>
+	<section>
+  <nav>
+  	<p style="text-align: center;font-size: 150%; background-color: #ff8080; padding: 30px; outline: white solid 5px;"><b><u>Services</u></b></p>
+  	<style>
+.accordion {
+  background-color: #ff8080;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: green; 
+}
+
+.panel {
+  padding: 18px;
+  width:100%;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+
+<style type="border"></style>
+<button class="accordion"><h1>Waxing + Threading</h1></button>
+ <div class="panel">
+  <p>
+  	<hr>
+  		<h5>Waxing Details:</h5><br>
+  	<hr>
+    <li>Type : Full Rica Roll-on Waxing</li>
+    <li>Cost : Rs. 999/-</li>
+    <li>Time Required : 45 to 60 minutes</li>
+    <li>Includes : Full legs + Full arms waxing.</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+    <hr>
+  </p>
+  <p>
+  	<hr>
+  		<h5>Threading Details:</h5><br>
+  	<hr>
+	    <li>Type : Low Cartact Threading</li>
+	    <li>Cost : Rs. 90/-</li>
+	    <li>Time Required : 20 minutes</li>
+	    <li>Includes : Eyebrow and upper-lip Threading</li>
+	    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+    </p>
+    <hr>
+</div>
+
+<button class="accordion"><h1>Threading + Hair Cut</h1></button>
+<div class="panel">
+  <p>
+  	<hr>
+  		<h5>Threading Details:</h5><br>
+    <hr>
+    <li>Type : Low Cartact Threading</li>
+    <li>Cost : Rs. 90/-</li>
+    <li>Time Required : 20 minutes</li>
+    <li>Includes : Eyebrow and upper-lip Threading</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+  <p><h5>Hair Cut Details:</h5><br>
+    <li>Type : All type</li>
+    <li>Cost : Rs. 160/-</li>
+    <li>Time Required : 20 minutes</li>
+    <li>Include : Only the hair Cut of your choice such as 
+      <ul style="list-style-type: circle;"><li>Layered cut</li>
+          <li>Step + Layer</li>
+          <li>Normal U/V Cut</li>
+          <li>like wise...</li>
+      </ul>
+    </li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+</div>
+
+<button class="accordion"><h1>Hair cut + Hair Style</h1></button>
+<div class="panel">
+  <p>
+  	<hr>
+  		<h5>Hair Cut Details:</h5><br>
+    <hr>
+    <li>Type : All type</li>
+    <li>Cost : Rs.160/-</li>
+    <li>Time Required : 20 minutes</li>
+    <li>Include : Only the hair Cut of your choice such as 
+      <ul style="list-style-type: circle;"><li>Layered cut</li>
+          <li>Step + Layer</li>
+          <li>Normal U/V Cut</li>
+          <li>like wise...</li>
+      </ul>
+    </li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+  <p><h5>Hair Style Details:</h5><br>
+    <li>Type : Curll</li>
+    <li>Cost : Rs.100/-</li>
+    <li>Time Required : 20 minutes</li>
+    <li>Includes : will style you hairs
+      <ul style="list-style-type: circle;">
+        <li>Curls</li>
+          <li>Stratning</li>
+          <li>Smoothning : But will cost Rs.400/- for it.</li>
+          <li>like wise...</li>
+      </ul></li>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+</div>
+
+<button class="accordion"><h1>Facial + Hair Wash</h1></button>
+<div class="panel">
+  <p>
+  	<hr>
+  		<h5>Facial Details:</h5><br>
+  	<hr>
+  	<div>
+      <li>Type : Mix Fruit Facial</li>
+      <li>Cost : Rs.650/-</li>
+      <li>Time Required : 45 minutes</li>
+      <li>Includes : Scrubbing, Black heads, Clean-up.</li>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </div>
+  <hr>
+  <div>    
+      <li>Type : Regular</li>
+      <li>Cost : Rs.250/-</li>
+      <li>Time Required :30 to 35 minutes</li>
+      <li>Includes : Scrubbing and Clean-up.</li>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </div>
+  <hr>
+  <div>
+      <li>Type : Gold (Shine)</li>
+      <li>Cost : Rs.1200/-</li>
+      <li>Time Required : 80 minutes</li>
+      <li>Includes : Scrubbing, Black-Heads, Steaming and Clean-up.</li>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </div>
+  </p>
+  <hr>
+  <p><h5>Hair Wash Details:</h5><br>
+    <li>Type : Normal</li>
+    <li>Cost : Rs.500/-</li>
+    <li>Time Required : 30 minutes</li>
+    <li>Includes : Hair wash with repair</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+    </p>
+    <hr>
+</div>
+
+<button class="accordion"><h1>Manicure + Pedicure</h1></button>
+<div class="panel">
+  <p>
+  	<hr>
+  		<h5>Manicure Details:</h5><br>
+  	<hr>
+    <li>Type : Hot oil Manicure</li>
+    <li>Cost : Rs.1600/-</li>
+    <li>Time Required : 30 minutes</li>
+    <li>Includes : Hydrating Mask</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+  <p><h5>Pedicure Details:</h5><br>
+    <li>Type : Regular</li>
+    <li>Cost : Rs.1000/-</li>
+    <li>Time Required : 30 to 90 minutes</li>
+    <li>Includes : With Nail polish</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+</div>
+
+<button class="accordion"><h1>Head + Shoulder Massage</h1></button>
+<div class="panel">
+  <p>
+  	<hr>
+  		<h5>Head Massage Details:</h5><br>
+  	<hr>
+    <li>Type : Relax U Massage</li>
+    <li>Cost : Rs.1999/-</li>
+    <li>Time Required : 50 minutes</li>
+    <li>Includes : Full head Massage, Wash, Steam, Set</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+  <p><h5>Shoulder Massage Details:</h5><br>
+    <li>Type : Deep tissue massage</li>
+    <li>Cost : Rs.3000/-</li>
+    <li>Time Required : 60 minutes</li>
+    <li>Includes : With Nail polish</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+	<br><br><br><br><br><br><br><br><br><br>
+	<script>
+	function openPage(pageName,elmnt,color) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("accordion");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].style.backgroundColor = "";
+	  }
+	  document.getElementById(pageName).style.display = "block";
+	  elmnt.style.backgroundColor = color;
+	}
+
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
+	  </nav>
+	</section>
+<footer>
+  <p>Copyright &copy; 2020, Styles&Smiles</p>
+</footer>
+</body>
+</html>
