@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Men HairCut</title>
+  <link rel="stylesheet" type="text/css" href="css/menshaircut.css">
+</head>
+<body>
+  <div class="first" style="background-color:red; color:white; padding:20px;">
+    <img src="logo.png" alt="logo" style="width: 15%; outline: black solid 2px;">
+    <header style="float: right; width: 82%"> <b>Men HairCut</b></header>
+  </div>
+  <section>
+  <nav>
+    <p style="text-align: center;font-size: 150%; background-color: #ff8080; padding: 30px; outline: white solid 5px;"><b><u>Men's Styles & Services</u></b></p>
+    <style>
+.accordion {
+  background-color: #ff8080;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: green; 
+}
+
+.panel {
+  padding: 18px;
+  width:100%;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+
+<style type="border"></style>
+<button class="accordion"><h1>HairCut</h1></button>
+ <div class="panel">
+  <p>
+    <h5></h5><br>
+    <li>Type : <b>Regular HairCut</b></li>
+    <li>Cost : Rs.250/-</li>
+    <li>Time Required : 20 minutes</li><br><br>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+    <hr>
+  </p>
+</div>
+
+<button class="accordion"><h1>Beard</h1></button>
+<div class="panel">
+  <p>
+    <h5></h5><br>
+    <li>Type : <b>Clean Shave</b></li>
+    <li>Cost : Rs.199/-</li>
+    <li>Time Required : 20 minutes</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+  <p><h5></h5>
+    <li>Type : <b>Trimming</b></li>
+    <li>Cost : Rs. 199/-</li>
+    <li>Time Required : 20 minutes</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+  <p><h5></h5>
+    <li>Type : <b>Styling</b></li>
+    <li>Cost : Rs. 199/-</li>
+    <li>Time Required : 20 minutes</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+</div>
+
+<button class="accordion"><h1>Hairs</h1></button>
+<div class="panel">
+  <p>
+      <h5></h5><br>
+    <li>Type : <b>Hair Color with L'OREAL Matrix</b></li>
+    <li>Cost : Rs.899/-</li>
+    <li>Time Required : 50 minutes</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+    <hr>
+    <p>
+      <h5></h5><br>
+    <li>Type : <b>Hair Color Application Only</b></li>
+    <li>Cost : Rs.599/-</li>
+    <li>Time Required : 40 minutes</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+    <hr>
+</div>
+
+<button class="accordion"><h1>Facial + Hair Wash</h1></button>
+<div class="panel">
+  <p>
+      <h5></h5><br>
+    <div>    
+      <li>Type : Regular</li>
+      <li>Cost : Rs.250/-</li>
+      <li>Time Required :30 to 35 minutes</li>
+      <li>Includes : Scrubbing and Clean-up.</li>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+    </div>
+    <hr>
+    <div>
+      <li>Type : Char Coal</li>
+      <li>Cost : Rs.650/-</li>
+      <li>Time Required : 45 minutes</li>
+      <li>Includes : Scrubbing, Black heads, Clean-up.</li>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </div>
+  <hr>
+  <div>
+      <li>Type : Gold (Shine)</li>
+      <li>Cost : Rs.1200/-</li>
+      <li>Time Required : 80 minutes</li>
+      <li>Includes : Scrubbing, Black-Heads, Steaming and Clean-up.</li>
+      <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </div>
+  </p>
+  <hr>
+  <p><h5>Hair Wash :</h5><br>
+    <li>Type : Normal</li>
+    <li>Cost : Rs.500/-</li>
+    <li>Time Required : 30 minutes</li>
+    <li>Includes : Hair wash with repair</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+    </p>
+    <hr>
+</div>
+
+<button class="accordion"><h1>Head + Shoulder Massage</h1></button>
+<div class="panel">
+  <p>
+    <hr>
+      <h5>Head Massage Details:</h5><br>
+    <hr>
+    <li>Type : Relax U Massage</li>
+    <li>Cost : Rs.1999/-</li>
+    <li>Time Required : 50 minutes</li>
+    <li>Includes : Full head Massage, Wash, Steam, Set</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+  <p><h5>Shoulder Massage Details:</h5><br>
+    <li>Type : Deep tissue massage</li>
+    <li>Cost : Rs.3000/-</li>
+    <li>Time Required : 60 minutes</li>
+    <li>Includes : With Nail polish</li>
+    <button class="tablink" onclick="openPage('Add', this, 'red')">Add</button>
+  </p>
+  <hr>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+  <br><br><br><br><br><br><br><br><br><br>
+  <script>
+  function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("accordion");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+  }
+
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+    </nav>
+  </section>
+<footer>
+  <p>Copyright &copy; 2020, Styles&Smiles</p>
+</footer>
+</body>
+</html>
